@@ -1,6 +1,7 @@
 # Wechat Mini Mall Application
 ## Introduction
-This Wechat Mini Program is designed for Ecommerce. It is coded in JavaScript, Json, WTML and WXSS
+Wechat Mini Program is suitable for both android and iOS mobile phone.
+This application is designed for Ecommerce. It is coded in JavaScript, Json, WTML and WXSS
 
 ## API Used
 Due to the limited access to data server, a private API is used in this application for demo purpose. 
@@ -19,8 +20,8 @@ Distinct functions:
 1. Slideshow
 2. Floating tab control menu bar
 3. "Back to top" button
-
-
+<img width="324" alt="Screen Shot 2020-04-30 at 2 57 27 AM" src="https://user-images.githubusercontent.com/38584966/80624349-e62e3b00-8a8e-11ea-9768-3f82bcbed95a.png">
+<img width="328" alt="Screen Shot 2020-04-30 at 3 00 57 AM" src="https://user-images.githubusercontent.com/38584966/80624417-fd6d2880-8a8e-11ea-918e-7fd80dddfc57.png">
 
 
 

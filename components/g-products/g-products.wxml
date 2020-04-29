@@ -1,0 +1,6 @@
+<!--components/g-products/g-products.wxml-->
+<view class="prod">
+    <block wx:for="{{products}}" wx:key="{{index}}">
+      <g-products-item class="item" item="{{item}}"/> 
+  </block>
+</view>

@@ -1,0 +1,12 @@
+{
+  
+  "usingComponents": {
+    "g-swiper": "/components/g-swiper/g-swiper",
+    "p-recommend": "./childCpns/p-recommend/p-recommend",
+    "p-popular": "./childCpns/p-popular/p-popular",
+    "g-tab-control":"/components/g-tab-control/g-tab-control",
+    "g-products": "/components/g-products/g-products",
+    "g-back-top": "/components/g-back-top/g-back-top"
+  },
+  "navigationBarTitleText": "Home"
+}

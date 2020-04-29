@@ -1,0 +1,12 @@
+/* components/g-products/g-products.wxss */
+.prod {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.prod > .item {
+  width: 48%;
+  position: relative;
+  margin-top: 16rpx;
+}

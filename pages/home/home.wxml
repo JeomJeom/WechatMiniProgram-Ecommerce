@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<!---1. display slideshow by using custom component-->
+
+<g-swiper list="{{banners}}"/>
+
+<!--2. display recommend data using custom component-->
+<p-recommend recommends="{{recommends}}" bind:imageLoad="handleImageLoad"/>
+
+<!--3.display weekly popular-->
+<p-popular/>
+
+<!--4. display tab control bar-->
+<g-tab-control titles="{{titles}}" 
+                bind:tabclick="handleTabClick"
+                id="tab-control"
+                class="{{isTabFixed ? 'fixed': ''}}"/>
+<w-tab-control titles="{{title}}" wx:if="{{isTabFixed}}"/>
+
+<!--5.display product data-->
+<g-products products="{{products[currentType].list}}"/>
+
+<!--6.display back to top icon-->
+<!--hidden:hidden property is invid on the custom components-->
+<g-back-top wx:if="{{showBackTop}}"/>

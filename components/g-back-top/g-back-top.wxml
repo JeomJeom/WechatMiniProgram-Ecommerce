@@ -1,0 +1,4 @@
+<!--components/g-back-top/g-back-top.wxml-->
+<view class='back-top' bind:tap="handleBackTop">
+  <image src="../assets/common/top.png"/>
+</view>

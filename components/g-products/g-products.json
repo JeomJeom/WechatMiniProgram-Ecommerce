@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "g-products-item": "../g-products-item/g-products-item"
+  }
+}
